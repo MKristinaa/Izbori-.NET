@@ -26,8 +26,6 @@ namespace Backend.Controllers
             this.dc = dc;
         }
 
-
-
         [HttpPost("/login")]
         public async Task<IActionResult> Login(login2 log)
         {
